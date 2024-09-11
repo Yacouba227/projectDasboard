@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="Css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="Navigation">
+      <a href="" class="Items">
+        <i class="fa-solid fa-code"></i>
+        <span>CODELOCCOL</span>
+      </a>
+      <a href="" class="Items">
+        <i class="fa-solid fa-dashboard"></i>
+        <span>Tableau de Bord</span>
+      </a>
+      <a href="" class="Items">
+        <i class="fa-solid fa-user"></i>
+        <span>CS</span>
+      </a>
+      <a href="" class="Items">
+        <i class="fa-solid fa-users"></i>
+        <span>Fournisseur</span>
+      </a>
+      <a href="" class="Items">
+        <i class="fa-solid fa-diagram-project"></i>
+        <span>Proget</span>
+      </a>
+      <a href="" class="Items">
+        <i class="fa-solid fa-sliders"></i>
+        <span>Paramètre</span>
+      </a>
+      <a href="" class="Items">
+        <i class="fa-solid fa-right-from-bracket"></i>
+        <span>Se déconnecter</span>
+      </a>
+    </div>
+
+    <div class="Main">
+      <div class="Topbar">
+        <div class="Gadget">
+          <i class="fa-solid fa-bars Toggle"></i>
+          <div class="Profil">
+            <!-- <span>Marley</span>
+            <div class="Profil__img">
+              <img src="Img/Profil/Profil-marley.jpg" alt="user" />
+            </div> -->
+            <input type="search" name="Recherche" id="search">
+          </div>
+        </div>
+      </div>
+
+      <div class="Content">
+        <div class="General">
+          <div class="Box">
+            <div class="Icon">
+              <i class="fa-solid fa-user-group"></i>
+            </div>
+            <div class="Info">
+              <p>Total des CS: 56</p>
+            </div>
+          </div>
+          <div class="Box">
+            <div class="Icon">
+              <i class="fa-solid fa-users-line"></i>
+            </div>
+            <div class="Info">
+              <p>Total Fournisseur: 6</p>
+            </div>
+          </div>
+          <div class="Box">
+            <div class="Icon">
+              <i class="fa-brands fa-r-project"></i>
+            </div>
+            <div class="Info">
+              <p>Total proget: 10</p>
+            </div>
+          </div>
+          <div class="Box">
+            <div class="Icon">
+              <i class="fa-solid fa-mattress-pillow"></i>
+            </div>
+            <div class="Info">
+              <p>Autres</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="Other">
+          <table>
+            <thead>
+              <tr>
+                <td>Nom du proget</td>
+                <td>Type du proget</td>
+                <td>Statut du proget</td>
+                <td>Début</td>
+                <td>Fin</td>
+                <td>Action</td>
+                <!-- <td>Supprimer</td>
+                <td>Afficher</td> -->
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>E-learning App</td>
+                <td>Education</td>
+                <td>En cours</td>
+                <td>30/07/2024</td>
+                <td>05/09/2024</td>
+                <td class="action">
+                  <i class="fa-solid fa-pen" id="modifier"></i>
+                  <i class="fa-solid fa-trash" id="supprimer"></i>
+                  <i class="fa-solid fa-display" id="afficher"></i>
+                </td>
+              </tr>
+              <tr>
+                <td>E-learning App</td>
+                <td>Education</td>
+                <td>En cours</td>
+                <td>30/07/2024</td>
+                <td>05/09/2024</td>
+                <td class="action">
+                  <i class="fa-solid fa-pen" id="modifier"></i>
+                  <i class="fa-solid fa-trash" id="supprimer"></i>
+                  <i class="fa-solid fa-display" id="afficher"></i>
+                </td>
+              </tr>
+              <tr>
+                <td>E-learning App</td>
+                <td>Education</td>
+                <td>En cours</td>
+                <td>30/07/2024</td>
+                <td>05/09/2024</td>
+                <td class="action">
+                  <i class="fa-solid fa-pen" id="modifier"></i>
+                  <i class="fa-solid fa-trash" id="supprimer"></i>
+                  <i class="fa-solid fa-display" id="afficher"></i>
+                </td>
+              </tr>
+              <tr>
+                <td>E-learning App</td>
+                <td>Education</td>
+                <td>En cours</td>
+                <td>30/07/2024</td>
+                <td>05/09/2024</td>
+                <td class="action">
+                  <i class="fa-solid fa-pen" id="modifier"></i>
+                  <i class="fa-solid fa-trash" id="supprimer"></i>
+                  <i class="fa-solid fa-display" id="afficher"></i>
+                </td>
+              </tr>
+              <tr>
+                <td>E-learning App</td>
+                <td>Education</td>
+                <td>En cours</td>
+                <td>30/07/2024</td>
+                <td>05/09/2024</td>
+                <td class="action">
+                  <i class="fa-solid fa-pen" id="modifier"></i>
+                  <i class="fa-solid fa-trash" id="supprimer"></i>
+                  <i class="fa-solid fa-display" id="afficher"></i>
+                </td>
+              </tr>
+              <tr>
+                <td>E-learning App</td>
+                <td>Education</td>
+                <td>En cours</td>
+                <td>30/07/2024</td>
+                <td>05/09/2024</td>
+                <td class="action">
+                  <i class="fa-solid fa-pen" id="modifier"></i>
+                  <i class="fa-solid fa-trash" id="supprimer"></i>
+                  <i class="fa-solid fa-display" id="afficher"></i>
+                </td>
+              </tr>
+              <tr>
+                <td>E-learning App</td>
+                <td>Education</td>
+                <td>En cours</td>
+                <td>30/07/2024</td>
+                <td>05/09/2024</td>
+                <td class="action">
+                  <i class="fa-solid fa-pen" id="modifier"></i>
+                  <i class="fa-solid fa-trash" id="supprimer"></i>
+                  <i class="fa-solid fa-display" id="afficher"></i>
+                </td>
+              </tr>
+              <tr>
+                <td>E-learning App</td>
+                <td>Education</td>
+                <td>En cours</td>
+                <td>30/07/2024</td>
+                <td>05/09/2024</td>
+                <td class="action">
+                  <i class="fa-solid fa-pen" id="modifier"></i>
+                  <i class="fa-solid fa-trash" id="supprimer"></i>
+                  <i class="fa-solid fa-display" id="afficher"></i>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="Js/Script.js"></script>
+  </body>
+</html>
