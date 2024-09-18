@@ -22,7 +22,6 @@
 
 body {
   background: var(--color-2);
-  display: flex;
 }
 
 .Navigation {
@@ -248,7 +247,19 @@ table tr td {
 
 .action{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+}
+.action i{
+  font-size: 16px;
+}
+.action button{
+  cursor: pointer;
+  background: var(--color-1);
+  border: none;
+  border-radius: 12px;
+  width: 40%;
+  height: 30px;
+  color: white;
 }
 
 /* ======================Responsive==================== */
