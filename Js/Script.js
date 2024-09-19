@@ -10,21 +10,8 @@ Toggle.onclick = () => {
     Main.classList.toggle("active");
 }
 
-/* voirSuivi.forEach(element => {
-    element.addEventListener('click', (e) =>{
-      nomDossier = element.parentElement.parentElement.parentElement.firstElementChild.textContent;
-      console.log('====================================');
-      console.log(nomDossier);
-      localStorage.setItem('nom', JSON.stringify(nomDossier))
-      console.log('====================================');
-    })
-  }); */
-
 afficher.forEach(element => {
    element.addEventListener("click", (e)=>{
-    /* console.log('====================================');
-    console.log(e);
-    console.log('===================================='); */
     if (e.target) {
         contenu_masquer.style.display = 'block';
     }
@@ -32,9 +19,6 @@ afficher.forEach(element => {
 });
 
 close.addEventListener("click", (e)=>{
-   /*  console.log('====================================');
-    console.log(e);
-    console.log('===================================='); */
     if (e.target) {
         contenu_masquer.style.display = 'none';
     }
